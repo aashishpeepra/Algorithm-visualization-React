@@ -1,0 +1,35 @@
+.Home{
+padding:30px 0px;
+color:#fff;
+}
+.Home h1{
+    font-size:280%;
+}
+
+.Home h4{
+    margin-top:30px;
+}
+.btn-holder{
+    margin:40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color:#fff;
+    color:rgb(67,208,243);
+    font-weight: bold;
+    /* display: inline-block; */
+    cursor: pointer;
+    padding:10px 20px;
+    transition: all ease-in 0.1s;
+}
+.btn:hover{
+    box-shadow: 20px 20px 40px #0fb9e4 ;
+}
+.active{
+    background-color: #0fb9e4;
+    color:#fff;
+    box-shadow: 20px 20px 40px #0fb9e4 ;
+}

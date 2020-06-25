@@ -1,0 +1,7 @@
+.tile{
+    width:10px;
+    background-color:#00ff00;
+    display: inline-block;
+    margin:1px;
+    /* margin-top:-900px; */
+}

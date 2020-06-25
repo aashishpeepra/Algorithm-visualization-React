@@ -1,0 +1,29 @@
+.Card{
+    height:400px;
+    width:90%;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 30px 40px 60px #0c9fc4;
+}
+.Card-btn{
+    background-color:rgb(67,208,243);
+    color:#fff;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    padding:10px 20px;
+    transition: all ease-in 0.1s;
+}
+.Card-btn:hover{
+    box-shadow: 10px 10px 20px #eee ;
+}
+
+.Card-btn-holder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:10px 0px;
+}
+.Card-Tile-Container{
+    margin-top:20px;
+}
